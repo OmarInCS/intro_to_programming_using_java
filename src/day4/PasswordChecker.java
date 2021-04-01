@@ -12,16 +12,17 @@ public class PasswordChecker {
             System.out.println("Weak Password");
         }
         else {
+
             int digitCount = 0;
             int upperCount = 0;
 
             for (int i = 0; i < password.length(); i++) {
                 char ch = password.charAt(i);
                 if (Character.isDigit(ch)) {
-                    digitCount++;
+                    digitCount++; // line 4
                 }
                 else if (Character.isUpperCase(ch)) {
-                    upperCount++;
+                    upperCount++; // line 7
                 }
             }
 
