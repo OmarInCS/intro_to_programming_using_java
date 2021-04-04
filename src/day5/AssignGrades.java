@@ -8,7 +8,7 @@ public class AssignGrades {
         System.out.print("Enter the number of std: ");
         int n = sc.nextInt();
 
-        double[] marks = new double[n];
+        double[] marks = new double[5];
         for (int i = 0; i < n; i++) {
             System.out.print("Enter a mark: ");
             marks[i] = sc.nextDouble();
