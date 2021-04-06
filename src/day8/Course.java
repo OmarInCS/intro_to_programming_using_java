@@ -12,6 +12,7 @@ public class Course {
     }
 
     public void addStudent(Student st) {
+
         students.add(st);
     }
 

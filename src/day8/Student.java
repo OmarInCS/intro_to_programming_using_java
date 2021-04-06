@@ -12,6 +12,12 @@ public class Student {
         count++;
     }
 
+    Student(Student s) {
+        this.name = s.name;
+        this.mark = s.mark;
+        count++;
+    }
+
     double getPercentage() {
         return mark / fullMark * 100;
     }
