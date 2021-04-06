@@ -6,8 +6,6 @@ public class Course {
     private String title;
     private ArrayList<String> students;
 
-
-
     public Course(String title) {
         this.title = title;
         students = new ArrayList<>();
