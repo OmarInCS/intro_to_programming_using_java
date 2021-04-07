@@ -1,6 +1,7 @@
 package day8;
 
 import java.util.ArrayList;
+import java.util.Iterator;
 
 public class Course {
     private String title;
